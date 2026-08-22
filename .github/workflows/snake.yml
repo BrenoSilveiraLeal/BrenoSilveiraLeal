@@ -15,13 +15,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate snake
+      - name: Generate purple snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: BrenoSilveiraLeal
           outputs: |
-            dist/github-snake.svg?palette=github-light&color_snake=8B5CF6&color_dots=#ebedf0,#c4b5fd,#a78bfa,#8b5cf6,#6d28d9
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=10B981&color_dots=#161B22,#0E4429,#006D32,#26A641,#39D353
+            dist/github-snake.svg?palette=github-light&color_snake=%238B5CF6&color_dots=%23ebedf0,%23ddd6fe,%23c4b5fd,%23a78bfa,%238b5cf6
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%23A855F7&color_dots=%23161B22,%233B0764,%236D28D9,%23A855F7,%23D8B4FE
 
       - name: Publish snake
         uses: crazy-max/ghaction-github-pages@v3.1.0
