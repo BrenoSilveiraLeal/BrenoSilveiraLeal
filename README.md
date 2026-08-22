@@ -1,19 +1,8 @@
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/BrenoSilveiraLeal/BrenoSilveiraLeal/main/dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/BrenoSilveiraLeal/BrenoSilveiraLeal/main/light.svg"
-  />
-  <img
-    alt="Breno Silveira Leal - Computer Science Student"
-    src="https://raw.githubusercontent.com/BrenoSilveiraLeal/BrenoSilveiraLeal/main/light.svg"
-  />
-</picture>
+<h1 align="center">Olá, eu sou Breno Silveira 👋</h1>
 
-<br />
+<p align="center">
+  Estudante de Ciência da Computação • Desenvolvedor Full Stack em formação
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/breno-silveira-leal/">
